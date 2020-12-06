@@ -3,7 +3,7 @@
 
                 <div class="card text-white bg-dark">
                     <div class="d-flex justify-content-center p-2">
-                        <img v-bind:src="member.imagen" alt="Fotografia del equipo">
+                        <img v-bind:src="member.image" alt="Fotografia del equipo">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title"> {{ member.nombre}} </h5>

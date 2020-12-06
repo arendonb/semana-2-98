@@ -43,7 +43,7 @@ export default {
       .get("http://www.omdbapi.com/?s=spider+man&type=movie&apikey=25d49bb1")
       .then((response) => {
         this.movies = response.data.Search.slice(0, 4);
-        console.log(this.movies);
+        
       });
   },
 };
