@@ -2,6 +2,8 @@
 <div id="app">
   <div class="container-fluid">
 
+   <section-api> </section-api> 
+
   <div class="row justify-content-center mb-5" >
     <div class="col mt-5" v-for="(item, index) of team" :key="index">
     <team-card v-bind:member="item"></team-card>
