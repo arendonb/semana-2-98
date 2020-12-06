@@ -12,7 +12,7 @@
                     
                     <!-- Content -->
                     <h5 class="text-uppercase font-weight-bold">Motivación</h5>
-                    <p>Esta página fue creada con la motivación de aprender a trabajar con Git y GitHub.<br>
+                    <p>Esta página fue creada con la motivación de aprender a trabajar con Bootstrap, Vue Cli.<br>
                     <br>
                     <br>
                     <br>
@@ -30,19 +30,18 @@
                         
                         <!-- Content -->
                         <h5 class="text-uppercase font-weight-bold">Integrantes</h5>
-                        <p>Alejandro Rendón Blandon - Medellín - arendonb@gmail.com - Product Owner<br>
+                        <p>Santiago Andres Millan Pardo - Bogotá - santiagomillanpardo@gmail.com - BackEnd<br>
                     <br>
-
-                    Santiago Andres Millan Pardo - Bogotá - santiagomillanpardo@gmail.com - Desarrollador BackEnd<br>
+                    Cristhian Daniel Díaz Salazar - Pereira - crdadiaz@utp.edu.co - Scrum Master<br>
                     <br>
 
                     Miguel Enrique Marquez Aldana - Bogotá - miguelmarquez.99@gmail.com - Tester<br>
                     <br>
 
-                    Diego Luis Soto Mendoza - Villavicencio - diegoluissotomendoza@gmail.com - Tester<br>
+                    Diego Luis Soto Mendoza - Villavicencio - diegoluissotomendoza@gmail.com - FrontEnd<br>
                     <br>
-
-                    Cristhian Daniel Díaz Salazar - Pereira - crdadiaz@utp.edu.co - Scrum Master<br>
+                    
+                    Alejandro Rendón Blandon - Medellín - arendonb@gmail.com - Product Owner<br>
                     <br></p>
                             
                         </div>
