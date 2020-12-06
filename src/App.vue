@@ -1,7 +1,7 @@
 <template>
-    <div id="app">
-
+<div id="app">
   <div class="container-fluid">
+
   <div class="row justify-content-center mb-5" >
     <div class="col mt-5" v-for="(item, index) of team" :key="index">
     <team-card v-bind:member="item"></team-card>
@@ -11,23 +11,24 @@
 
     <page-footer></page-footer>
     <!-- <h1>{{title}}</h1> -->
+
   </div>
 </template>
 
 <script>
-
-import PageFooter from './components/PageFooter.vue'
-import TeamCard from './components/TeamCard.vue'
-
+import PageFooter from "./components/PageFooter.vue";
+import TeamCard from "./components/TeamCard.vue";
+import SectionApi from "./components/SectionApi.vue";
 
 
 export default {
-  name: 'App',
-  components:{
+  name: "App",
+  components: {
     PageFooter,
     TeamCard,
-
+    SectionApi,
   },
+
   data(){
     return{
       //title:'Vivo dentro de VUE',
@@ -71,5 +72,6 @@ export default {
     }
   }
 }
+
 </script>
 
