@@ -1,31 +1,38 @@
 <template>
-    
-
-                <div class="card text-white bg-dark">
-                    <div class="d-flex justify-content-center p-2">
-                        <img v-bind:src="member.image" alt="Fotografia del equipo">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title"> {{ member.nombre}} </h5>
-                        <p class="card-text"> {{ member.descripcion}} </p>
-                        <p class="card-text"><span>Rol: </span> {{ member.rol}} </p>
-                        <p class="card-text"><span>Código: </span> {{ member.codigo}} </p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-            
-    
+  <div  class="card text-black bg-light">
+    <div class="d-flex justify-content-center p-3">
+      <img v-bind:src="member.image" alt="Fotografia del equipo" />
+    </div>
+    <div class="card-body" style="height: 400px">
+      <h5 class="card-title" style="text-align: center">{{ member.nombre }}</h5>
+      <p class="card-text" style="text-align: center">
+        <small class="text-muted"
+          ><span>Código: </span> {{ member.codigo }}</small
+        >
+      </p>
+      <p class="card-text" style="text-align: justify">
+        {{ member.descripcion }}
+      </p>
+    </div>
+    <div class="card-footer">
+      <p style="text-align: center">
+        <b>{{ member.rol }}</b>
+      </p>
+    </div>
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "TeamCard",
-        props: ['member']
-    }
+export default {
+  name: "TeamCard",
+  props: ["member"],
+};
 </script>
 
 <style scoped>
-
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
 </style>
