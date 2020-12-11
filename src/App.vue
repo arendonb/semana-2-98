@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <div class="container-fluid">
-      <h2 class="text-center m-5">API</h2>
+      <h2  class="text-center m-5">API</h2>
       <h4 class="text-muted text-center mb-5">OMDb API</h4>
 
       <section-api> </section-api>
 
-      <div class="d-flex justify-content-center">
+      <div id="team" class="d-flex justify-content-center">
         <h2 class="m-5">EQUIPO</h2>
       </div>
 

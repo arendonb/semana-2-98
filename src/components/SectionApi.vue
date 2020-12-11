@@ -1,5 +1,5 @@
 <template>
-  <div id="api" >
+  <div  >
     <div class="row mt-md-5 mt-sm-5 mt-xs-5">
       <div
         class="col-lg-6 col-xs-12"

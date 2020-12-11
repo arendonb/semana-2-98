@@ -1,5 +1,5 @@
 <template>
-  <div id="team" class="card text-black bg-light">
+  <div  class="card text-black bg-light">
     <div class="d-flex justify-content-center p-3">
       <img v-bind:src="member.image" alt="Fotografia del equipo" />
     </div>
